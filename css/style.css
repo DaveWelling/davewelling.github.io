@@ -1,0 +1,43 @@
+/* YOUR CUSTOM STYLES */
+.list-group-item.active {
+    background-color: #33b5e5;
+    border-color:#33b5e5
+}
+.list-group-item:not(.active) {
+    color:#222;
+}
+.list-group-item:not(.active):hover {
+    color:#666;
+}
+.davids-name {
+    text-align: center;
+    font-size: 4em;
+    padding: .5em;
+}
+.davids-face {
+    max-width: 5em;
+    max-height: 5em;
+    margin-top: -2.75em;
+    margin-left: -3.5em;
+    position:relative;
+    z-index: 5;
+}
+.header {
+    margin-top: 1em;
+}
+.links:link {
+    color:#d9534f;
+}
+.links:visited {
+    color:#d9534f;
+}
+.links {
+    color:#d9534f;
+}
+.edu {
+    float:left;
+    margin-left: 1em;
+}
+.skill {
+    margin-bottom: 1em;
+}
