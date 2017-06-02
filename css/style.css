@@ -24,6 +24,7 @@
 }
 .header {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 .links:link {
     color:#d9534f;
@@ -41,3 +42,27 @@
 .skill {
     margin-bottom: 1em;
 }
+.tech-skill {
+    margin-top: 1em;
+    font-size: small;
+}
+
+meter {
+    width: 2em;
+}
+/*meter */
+meter::-webkit-meter-bar {background: #e6e6e9;} /*background color of bar*/
+meter::-webkit-meter-optimum-value {background: #d9534f;}
+meter::-webkit-meter-suboptimum-value{background:#d9534f;}
+meter::-webkit-meter-even-less-good-value{background:#d9534f;}
+
+
+/*meter */
+/*bar with only one possible color*/
+meter::-moz-meter-bar {background: #d9534f;}  /* color of bar*/
+
+/* bar with different colors*/
+/* between "low" and "high" thresholds*/
+meter::-moz-meter-optimum-value {background: #d9534f;} 
+/*below "low" threshold or above "high" threshold*/
+meter::-moz-meter-suboptimum-value{background:#d9534f;}  
